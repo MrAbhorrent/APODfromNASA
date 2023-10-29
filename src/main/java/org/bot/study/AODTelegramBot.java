@@ -95,7 +95,7 @@ public class AODTelegramBot extends TelegramLongPollingBot {
         KeyboardRow keyboardSecondRow = new KeyboardRow();
         keyboardSecondRow.add("Загрузить изображение");
         KeyboardRow keyboardThirdRow = new KeyboardRow();
-        keyboardSecondRow.add("Загрузить изображение");
+        keyboardSecondRow.add("Введите дату");
 
         keyboard.add(keyboardFirstRow);
         keyboard.add(keyboardSecondRow);
